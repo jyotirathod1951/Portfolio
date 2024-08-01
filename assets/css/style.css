@@ -1764,12 +1764,21 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 1250px screen
  */
 
+ @media(max-width:1250px) {
+  .dark1 {
+    position: absolute;
+    top: -45px;
+    right: 70px;
+}
+
+ }
 @media (min-width: 1250px) {
 
   /**
    * RESET
    */
 
+ 
   body::-webkit-scrollbar { width: 20px; }
 
   body::-webkit-scrollbar-track { background: var(--smoky-black); }
@@ -1878,6 +1887,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
+  .dark1 {
+    position: absolute;
+    top: -45px;
+    right: 70px;
+}
 
 }
 
